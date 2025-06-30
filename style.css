@@ -1,0 +1,16 @@
+body {
+  background-color: #f3f4f6; /* Couleur de fond */
+  font-family: Arial, sans-serif; /* Police par défaut */
+  text-align: center; /* Centrer le texte */
+}
+
+h1 {
+  color: #0056b3; /* Couleur du titre */
+  font-size: 2.5em; /* Taille du texte */
+  margin-top: 20px; /* Marge au-dessus du titre */
+}
+
+p {
+  color: #333333; /* Couleur du texte */
+  font-size: 1.2em; /* Taille des paragraphes */
+}
