@@ -1,16 +1,165 @@
+/* General Styles */
 body {
-  background-color: #f3f4f6; /* Couleur de fond */
-  font-family: Arial, sans-serif; /* Police par défaut */
-  text-align: center; /* Centrer le texte */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f8f9fa;
+  color: #333;
 }
 
-h1 {
-  color: #0056b3; /* Couleur du titre */
-  font-size: 2.5em; /* Taille du texte */
-  margin-top: 20px; /* Marge au-dessus du titre */
+a {
+  text-decoration: none;
+  color: #0056b3;
 }
 
-p {
-  color: #333333; /* Couleur du texte */
-  font-size: 1.2em; /* Taille des paragraphes */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+}
+
+header .logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+header .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+header .nav-links li {
+  display: inline;
+}
+
+header .nav-links a {
+  color: white;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background: linear-gradient(90deg, #007bff, #0056b3);
+  color: white;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.hero .cta-button {
+  background-color: #ffc107;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Gaming Section */
+.gaming {
+  padding: 30px 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.gaming h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.gaming ul {
+  text-align: left;
+  margin: auto;
+  max-width: 600px;
+}
+
+.gaming li {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+/* eBooks Section */
+.ebooks {
+  padding: 30px 20px;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.ebooks h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.ebooks ul {
+  text-align: left;
+  margin: auto;
+  max-width: 600px;
+}
+
+.ebooks li {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+/* Contact Section */
+.contact {
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 80%;
+  max-width: 400px;
+  margin: auto;
+}
+
+.contact form input, .contact form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact form button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
 }
