@@ -43,6 +43,27 @@ header {
   font-weight: bold;
 }
 
+/* Application Status Section (MOVED TO TOP) */
+.status {
+  padding: 30px 20px;
+  background-color: #e9f5ff;
+  text-align: center;
+  border-bottom: 2px solid #007bff;
+}
+
+.status h2 {
+  font-size: 1.8em;
+  margin-bottom: 8px;
+  color: #007bff;
+}
+
+.status p {
+  font-size: 1.1em;
+  color: #333;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
 /* Hero Section */
 .hero {
   text-align: center;
@@ -150,27 +171,6 @@ header {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-}
-
-/* Application Status Section */
-.status {
-  padding: 40px 20px;
-  background-color: #e9f5ff;
-  text-align: center;
-  border-top: 2px solid #007bff;
-}
-
-.status h2 {
-  font-size: 2em;
-  margin-bottom: 10px;
-  color: #007bff;
-}
-
-.status p {
-  font-size: 1.1em;
-  color: #333;
-  max-width: 600px;
-  margin: 0 auto;
 }
 
 /* Footer */
