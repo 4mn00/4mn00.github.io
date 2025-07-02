@@ -75,50 +75,56 @@ header .nav-links a {
   cursor: pointer;
 }
 
-/* Gaming Section */
-.gaming {
+/* Status Section */
+.status {
   padding: 30px 20px;
+  background-color: #e8f5e8;
+  text-align: center;
+  border: 2px solid #28a745;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.status h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+  color: #28a745;
+}
+
+.status p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.status-details {
   background-color: #ffffff;
-  text-align: center;
-}
-
-.gaming h2 {
-  font-size: 2em;
-  margin-bottom: 10px;
-}
-
-.gaming ul {
-  text-align: left;
-  margin: auto;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px auto;
   max-width: 600px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-.gaming li {
-  font-size: 1.2em;
-  margin: 10px 0;
+.status-details h3 {
+  font-size: 1.3em;
+  margin-bottom: 15px;
+  color: #333;
 }
 
-/* eBooks Section */
-.ebooks {
-  padding: 30px 20px;
-  background-color: #f1f1f1;
-  text-align: center;
-}
-
-.ebooks h2 {
-  font-size: 2em;
-  margin-bottom: 10px;
-}
-
-.ebooks ul {
+.status-details ul {
   text-align: left;
-  margin: auto;
-  max-width: 600px;
+  margin: 15px 0;
 }
 
-.ebooks li {
-  font-size: 1.2em;
-  margin: 10px 0;
+.status-details li {
+  font-size: 1.1em;
+  margin: 8px 0;
+  padding: 5px 0;
+}
+
+.status-details strong {
+  color: #007bff;
 }
 
 /* Contact Section */
